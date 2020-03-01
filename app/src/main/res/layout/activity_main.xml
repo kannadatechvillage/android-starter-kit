@@ -62,7 +62,17 @@
                 android:text="@string/button_example">
 
             </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGoNext"
+                android:layout_margin="@dimen/default_view_margin"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/gen_white"
+                android:textAllCaps="false"
+                android:text="Click here to Go to Next Screen">
 
+            </Button>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -92,16 +102,7 @@
                 android:src="@drawable/apple">
             </ImageButton>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnGoNext"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@color/gen_white"
-                android:textAllCaps="false"
-                android:text="Click here to Go to Next Screen">
 
-            </Button>
         </LinearLayout>
     </ScrollView>
 
