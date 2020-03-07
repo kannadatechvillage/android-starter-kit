@@ -73,7 +73,7 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
 
         int result = dbHelper.insertUser(userInfo);
 
-        if (result==USER_ALREADY_EXISTS){
+        if (result==ALREADY_EXISTS){
             Toast.makeText(this, "User Already Exist With this Mobile", Toast.LENGTH_SHORT).show();
         }else if (result==FAILED){
             Toast.makeText(this, "User Creation Failed", Toast.LENGTH_SHORT).show();

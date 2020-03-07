@@ -31,6 +31,10 @@
     <color name="dot_light_screen3">#82ccdd</color>
     <color name="dot_light_screen4">#38ada9</color>
 
+    <color name="black_overlay">#66000000</color>
+    <color name="light_grey">#edf1f4</color>
+    <color name="green_light">#43A047</color>
+
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
         <item>@color/dot_light_screen2</item>

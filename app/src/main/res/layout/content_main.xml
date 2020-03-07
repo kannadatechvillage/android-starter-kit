@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnDemo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/button_example"
+                android:textAllCaps="false"
+                android:textColor="@color/gen_white">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnGoNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:background="@color/colorPrimaryDark"
+                android:text="Click here to Go to Next Screen"
+                android:textAllCaps="false"
+                android:textColor="@color/gen_white">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_add_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:background="@color/colorPrimaryDark"
+                android:text="Add Customer"
+                android:textAllCaps="false"
+                android:textColor="@color/gen_white">
+
+            </Button>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:focusable="false"
+                android:hint="Edit Text Example Enter something here"
+                android:padding="@dimen/default_view_padding">
+
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/ibDemo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/default_view_margin"
+                android:background="@color/colorPrimaryDark"
+                android:src="@drawable/apple"></ImageButton>
+
+            <ImageView
+                android:id="@+id/ivDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/apple"></ImageView>
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/default_view_padding"
+                android:text="@string/my_title"
+                android:textColor="@color/gen_black"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/default_view_padding"
+                android:text="@string/text_view_label"
+                android:textColor="@color/gen_black"
+                android:textSize="@dimen/default_text_size">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:padding="@dimen/default_view_padding"
+                android:text="Below is Image View Example"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_view_margin"
+                android:padding="@dimen/default_view_padding"
+                android:text="Below is Example for ImageButton"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

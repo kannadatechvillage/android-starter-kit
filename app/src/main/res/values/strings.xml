@@ -18,9 +18,24 @@
     <string name="slide_3_title">Slide 3</string>
     <string name="slide_3_desc">Slide 3 Description</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
     <!--Navigation drawer items-->
     <string name="slide_4_title">Slide 4</string>
     <string name="slide_4_desc">Slide 4 Description</string>
     <string name="remind_me_later">Remind Me Later</string>
     <string name="update">Update</string>
+
+    <string-array name="city_list">
+        <item>Select City</item>
+        <item>Bangalore</item>
+        <item>Mysore</item>
+        <item>Dharwad</item>
+        <item>Davanagere</item>
+    </string-array>
 </resources>

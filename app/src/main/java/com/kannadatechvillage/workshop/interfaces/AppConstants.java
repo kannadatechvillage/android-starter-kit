@@ -6,7 +6,7 @@ public interface AppConstants {
 
     int SUCCESS = 1;
     int FAILED = -1;
-    int USER_ALREADY_EXISTS = -2;
+    int ALREADY_EXISTS = -2;
 
     String USER_NAME = "name";
     String USER_ID = "id";
@@ -34,6 +34,8 @@ public interface AppConstants {
     String CUSTOMER_EMAIL = "email";
     String CUSTOMER_ADDRESS = "address";
     String CUSTOMER_MOBILE = "mobile";
+    String CUSTOMER_GENDER = "gender";
+    String CUSTOMER_CITY = "city";
 
     String CREATE_CUSTOMER_TABLE = "CREATE TABLE "+CUSTOMER_TABLE_NAME+"" +
             "(id INTEGER primary key AUTOINCREMENT," +
@@ -41,6 +43,9 @@ public interface AppConstants {
             "email VARCHAR(100)," +
             "mobile VARCHAR(15)," +
             "address VARCHAR(100)," +
+            "gender VARCHAR(10)," +
+            "status VARCHAR(10)," +
+            "city VARCHAR(20)," +
             "createdOn long," +
             "updatedOn long)";
 }
